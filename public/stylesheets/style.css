@@ -1,0 +1,202 @@
+/*
+ * Stylesheet by:
+ * Odin Dutton, www.odindutton.com
+ * twe4ked studios, www.twe4ked.com
+ *
+ * Stylesheet for:
+ * Mocra
+ * www.mocra.com
+ *
+ * Copyright:
+ * (c) Copyright 2010 Odin Dutton. All Rights Reserved.
+ *
+ */
+ 
+ 
+/* = Main typographic styles =============== */
+body{font:normal 16px/140% Helvetica,Arial,sans-serif;color:#333;background-color:#d8e3e6;}
+p{margin:10px 0 20px;}
+strong{font-weight:bold;}
+code{font-family:'Courier New',Courier,Fixed;}
+acronym,abbr,span.caps{cursor:help;}
+acronym,abbr{border-bottom:1px dashed #999;}
+acronym{font-variant:small-caps;}
+em{font-style:italic;}
+small{font-size:12px;line-height:16px !important;}
+blockquote{font-family:Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;margin:20px 0;}
+blockquote cite{font-size:14px;display:block;color:#666;}
+  
+  /* Links */
+  a:link, a:visited, a:active{color:#000;outline:none;}
+  a:hover{color:#666;}
+  
+  /* Blog link colours */
+  body#blogs_page a{color:#b2b4b5;}
+  body#blogs_page a:hover{color:#ccc;}
+  
+  /* Headings */
+  h2, h3, h4, h5, h6{line-height:100%;}
+  h2{font-size:46px;color:#880909;margin-bottom:40px;}
+  h3{font-size:20px;padding:10px 0 5px;color:#880909;}
+  h4{font-size:20px;}
+  h5{font-size:18px;font-weight:bold;}
+  h6{font-size:16px;font-weight:bold;}
+  
+/* = Layout =============== */
+.container{width:960px;margin:0 auto;}
+#content{margin-bottom:30px;}
+
+/* = Header =============== */
+header{margin-top:40px;display:block;width:100%;margin-bottom:80px;}
+  
+  /* Logo */
+  h1{text-indent:-9999px;background:url('../images/logo.png') no-repeat;float:left;}
+  a h1{width:154px;height:27px;}
+  a:active h1{position:relative;top:1px;}
+  
+  /* Navigation*/
+  nav{float:right;margin-top:5px;font-size:14px;}
+  nav ul{list-style:none;}
+  nav ul li{float:left;margin-left:20px;}
+  nav ul li a{text-decoration:none;color:#666 !important;}
+  nav ul li a:active{position:relative;top:1px;}
+  
+  a.call-to-action{position:relative;width:301px;top:120px;left:659px;height:51px;text-indent:-9999px;display:block;background:url('../images/buttons/call-to-action.png') no-repeat bottom;}
+  a.call-to-action:hover{background-position:top;}
+  
+/* ====================== 
+=== Pages ===============
+=========================
+====================== */
+
+
+
+/* = Home =============== */
+ul.home-columns li{float:left;width:225px;margin-right:20px;}
+ul.home-columns li.last{margin-right:0;}
+ul.home-columns-large li{float:left;width:300px;margin-right:30px;}
+ul.home-columns-large li.last{margin-right:0;}
+p.whats-next{background:#C3DFC7;padding:20px;border:1px dashed green;}
+p.whats-next:hover{background:#DBE6DD;}
+p.primary-text{font-size:20px;}
+.slider-content{border-top:1px solid #c0c9cc;border-bottom:1px solid #c0c9cc;padding:20px 0;
+  background:url('../images/homepage-featured-bg.png') repeat-x center top;}
+
+#project_slider {margin:20px 0;}
+#project_slider blockquote{float:left;width:560px;padding:10px 0;font-size:20px;line-height:140%;margin:0 !important;
+  font-family:Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;}
+#project_slider blockquote cite{font-size:16px;display:block;}
+/*#project_slider img{float:right;margin-top:-170px;}*/
+#project_slider img{float:right;margin-top:-140px;}
+.slider-content p{float:left;width:560px;}
+/*.slider-content a.more-projects-btn{width:117px;height:30px;display:block;text-indent:-9999px;background:url('../images/buttons/btn-more-projects.png');margin:30px 0 -30px;}
+.slider-content a.more-projects-btn:hover{background:url('../images/buttons/btn-more-projects-hover.png');}
+.slider-content a.more-projects-btn:active{position:relative;top:1px;}*/
+.slider-content a.more-projects-btn{width:117px;height:30px;display:block;text-indent:-9999px;background:url('../images/buttons/btn-more-projects.png');margin-right:238px;float:right;}
+.slider-content a.more-projects-btn:hover{background:url('../images/buttons/btn-more-projects-hover.png');}
+.slider-content a.more-projects-btn:active{position:relative;top:1px;}
+
+
+/* = Contact  =============== */
+.contact .contact-body{width:270px;float:left;margin:0;padding:0 15px;background:#E0ECEF;border:1px solid #a8b0b3;}
+.contact .avatar-wrap{float:none;width:272px;margin:15px 15px 0 0;}
+.contact .content{width:628px;float:left;margin-right:30px;}
+.contact .content ul li{list-style:disc inside;margin-bottom:5px;}
+  /* Form */
+  .contact form .inputs li input{width:260px;height:25px;font-size:20px;padding:5px 5px 0;border:1px solid #737373;margin-bottom:10px;}
+  .contact form .inputs li input#contact_email{margin-bottom:0;}
+  .contact form .inputs li textarea{width:260px;height:150px;margin-bottom:10px;padding:5px;border:1px solid #737373;font-size:20px;}
+  .contact form .buttons input#contact_submit{border:0;text-indent:-9999px;background:url('../images/buttons/btn-send.png') no-repeat;width:73px;height:30px;}
+  .contact form .buttons input#contact_submit:hover{background:url('../images/buttons/btn-send-hover.png') no-repeat;}
+  .contact form .buttons input#contact_submit:active{position:relative;top:1px;}
+  .contact form .buttons {margin-bottom:20px;}
+  
+  /* Information */
+  .contact ul#info{line-height:150%;width:135px;margin-right:30px;float:left;}
+  .contact ul#info li label{font-size:20px;color:#880909;display:block;}
+  .contact ul#info li{margin-bottom:20px;}
+  .contact .vcard{background:url('../images/vcard.png') no-repeat center left;font-size:12px;padding-left:20px;}
+  
+/* = Blog  =============== */
+body#blogs_page{background:#1d1d1d url('../images/blog-header-repeat.jpg') repeat-x top;}
+#blog{position:absolute;width:1160px;height:440px;top:0;z-index:-1;margin-left:-100px;background:url('../images/blog-header.jpg') no-repeat top center;}
+body#blogs_page section{margin-top:60px;display:block;color:#b2b4b5 !important;}
+body#blogs_page blockquote{margin:15px 30px 0 10px;padding-left:20px;border-left:5px solid #999;}
+body#blogs_page blockquote cite{margin:5px 0 0;display:block;}
+body#blogs_page .whats-next{display:none;}
+
+  /* Article styling */
+  body#blogs_page section article aside img{margin-bottom:10px;border:1px solid #000;}
+  body#blogs_page section article aside{float:left;width:135px;text-align:right;margin-right:30px;margin-top:12px;font-size:14px;}
+  body#blogs_page section article .post{float:right;width:795px;overflow:hidden;}
+  body#blogs_page section article .post h3{font-size:24px;font-weight:bold;color:#b2b4b5;}
+  
+/* = Projects  =============== */   
+article.project{padding:10px 20px;background:#E0ECEF;margin-bottom:30px;width:918px;border:1px solid #A8B0B3;}
+article.project img{float:left;margin:0 20px 20px 0;border:1px solid #A8B0B3;}
+article.project blockquote{font-family:Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;}
+article.project blockquote cite{font-size:14px;display:block;color:#666;}
+article.project h3 span{float:right;color:#000;}
+
+/*460-40-460*/
+#internal_projects h2{margin:30px 0 20px;}
+#internal_projects article.project{width:418px !important;margin-right:35px;}
+#internal_projects article.project.right{margin-right:0;}
+  
+/* = Team  =============== */
+.open-source{float:left;margin-right:40px;margin-top:10px;}
+.open-source ul li{list-style:disc;margin-bottom:5px;}
+
+ul#team{list-style-type:none;float:left;width:560px;}
+ul#team li{margin-bottom:50px;}
+ul#team li h3{float:left;width:400px;}
+.avatar-wrap{border:1px solid #A8B0B3;float:right;margin:15px 0 15px 15px;line-height:0;}
+.avatar-wrap img{border:1px solid #D8E3E6;}
+ul#team li span{padding:10px;background:#C2CCCF;}
+ul#team li span a.twitter:hover{padding-left:20px;background:url('../images/icons/twitter_16.png') no-repeat left -1px;position:relative;margin-left:-20px;}
+ul#team li ul li{list-style:disc !important;margin-bottom:5px;background:red;}
+
+/* = About =============== */
+.secondary{float:left;}
+ul#mantra{list-style-type:none;width:328px;margin-right:40px;padding:15px;background:#E0ECEF;border:1px solid #a8b0b3;}
+ul#mantra li.title h3{color:#000;padding-left:0;background:none;font-size:30px;}
+#main_content{float:left;width:540px;}
+.about-image{width:358px;border:1px solid #A8B0B3;background:#E0ECEF;margin-bottom:30px;}
+.about-image span{padding:5px 15px;color:#222;font-size:14px;}
+.about-image-large{width:558px;border:1px solid #A8B0B3;background:#E0ECEF;margin-bottom:30px;line-height:0;}
+
+/* = How we do it =============== */
+#how blockquote{background:#C2CCCF;width:530px;padding:5px 15px;float:left;}
+
+/* Downloads */
+a.badges img{float:right;margin:0 0 30px 30px;padding:10px 0;background:#fff;}
+form#badge_download ul li{height:50px;margin-bottom:10px;float:left;margin:0 20px 20px 0;}
+form#badge_download ul li input{float:left;margin-top:20px;}
+form#badge_download ul li label img{}
+
+/* = Error pages =============== */
+#errorpage form {margin-bottom:20px;}
+#errorpage form label{margin-bottom:5px;display:block;font-size:20px;color:#880909;}
+#errorpage form input#search{width:822px;height:22px;font-size:16px;padding:5px 5px 0;border:1px solid #737373;margin-right:20px;float:left;}
+#errorpage form input#search_button{border:0;text-indent:-9999px;background:url('../images/buttons/btn-search.png') no-repeat;width:101px;height:30px;float:right;outline:none;}
+#errorpage form input#search_button:hover{background:url('../images/buttons/btn-search-hover.png') no-repeat;}
+#errorpage form input#search_button:active{position:relative;top:1px;}
+
+/* = Footer =============== */
+footer{font-size:14px;padding-top:15px;height:150px;text-align:center;display:block;color:#d8e3e6;background:#303133 url('../images/footer.png') repeat-x;}
+footer img{margin-bottom:5px;}
+footer p{margin:0 0 10px;}
+footer small p{margin:0;color:#868B8D;}
+  
+  /* Links */
+  footer a{color:#d8e3e6 !important;}
+  footer a:hover{color:#fff !important;}
+  
+  /* Stickey footer */
+  html, body, #wrapper {height: 100%;}
+  body > #wrapper {height: auto; min-height: 100%;}
+  #content {padding-bottom: 165px;}  /* must be same height as the footer */
+  footer{position:relative;margin-top:-165px;clear:both;}
+
+/* = Misc. =============== */
+.clearing{clear:both;}

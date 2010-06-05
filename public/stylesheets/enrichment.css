@@ -1,0 +1,38 @@
+/*
+ * twe4ked studios enrichment stylesheet, http://www.twe4ked.com/
+ * 
+ * Website: http://mocra.com
+ * 
+ * "Progressive enhancement is a strategy for web design that emphasizes accessibility, 
+ * semantic markup, and external stylesheet and scripting technologies. Progressive 
+ * enhancement uses web technologies in a layered fashion that allows everyone to access 
+ * the basic content and functionality of a web page, using any browser or Internet 
+ * connection, while also providing those with better bandwidth or more advanced browser 
+ * software an enhanced version of the page."
+ *
+ * Via: http://en.wikipedia.org/wiki/Progressive_enhancement
+ *
+ * (c) Copyright 2010 Odin Dutton. All Rights Reserved.
+ * 
+ */
+
+h2{text-shadow: 1px 1px 2px #fff;}
+
+article.project,
+article.project img:hover,
+#team-slider,
+ul#mantra,
+.contact .contact-body,
+.about-image,
+.about-image-large
+{
+  -moz-box-shadow:0 0px 5px #666;
+  -webkit-box-shadow:0 0px 5px #666;
+}
+
+ul#team li span,
+#how blockquote
+{
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+}

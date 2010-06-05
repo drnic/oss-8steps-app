@@ -1,0 +1,18 @@
+:preserve
+  <?xml version="1.0" encoding="UTF-8" ?>
+!!! 5
+%html
+  %head
+    %title Mocra
+    %meta{:'http-equiv' => 'Content-Type', :content => 'application/xhtml+xml; charset=utf-8'}
+    %meta{:'http-equiv' => 'X-UA-Compatible', :content => 'IE=7,chrome=1'}
+    = yield :head
+    = stylesheet_link_tag 'reset'
+    = stylesheet_link_tag 'style'
+    = stylesheet_link_tag 'enrichment'
+  %body
+    #wrapper
+      .container= render :partial => 'layouts/header'
+      #content
+        .container= yield
+    = render :partial => 'layouts/footer'
